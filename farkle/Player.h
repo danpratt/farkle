@@ -18,11 +18,14 @@ private:
 	std::string name;  // player's name
 	std::vector<Die> rollingDice; // vector of the player's rolling dice
 	std::vector<Die> heldDice; // vector of the player's held dice (used for scoring)
+	int score; // player's score
 
 public:
 	Player(std::string name);
 
 	std::string getName() const;
+
+	int getScore() const;
 
 	void beginTurn();
 
@@ -30,8 +33,15 @@ public:
 
 	void holdDie(int atIndex);
 
+	bool canScoreDie() const;
+
 	void scoreDie();
 
 	void displayDice() const;
+
+	// Prompts for the player
+	void promptForAction();
+
+	void promptForHoldDie();
 };
 
