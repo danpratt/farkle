@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C162C8C3-16D4-43A8-A8C5-22FC1E04B547}|farkle\\farkle.vcxproj|C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\farkle\\farkle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C162C8C3-16D4-43A8-A8C5-22FC1E04B547}|farkle\\farkle.vcxproj|solutionrelative:farkle\\farkle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "farkle.cpp",
+              "DocumentMoniker": "C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\farkle\\farkle.cpp",
+              "RelativeDocumentMoniker": "farkle\\farkle.cpp",
+              "ToolTip": "C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\farkle\\farkle.cpp",
+              "RelativeToolTip": "farkle\\farkle.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-15T17:14:32.958Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
