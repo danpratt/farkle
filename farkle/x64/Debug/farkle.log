@@ -1,1 +1,2 @@
-﻿LINK : fatal error LNK1168: cannot open C:\Users\danpr\Documents\GitHub\farkle\x64\Debug\farkle.exe for writing
+﻿  Player.cpp
+  farkle.vcxproj -> C:\Users\danpr\Documents\GitHub\farkle\x64\Debug\farkle.exe

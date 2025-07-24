@@ -20,6 +20,7 @@ private:
 	std::vector<Die> heldDice; // vector of the player's held dice (used for scoring)
 	int score; // player's score
 	int turnScore; // score for the current turn
+	bool shouldEndTurn = false; // flag to indicate if the turn should end
 
 public:
 	Player(std::string name);

@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "farkle\\Player.cpp",
               "ToolTip": "C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\Player.cpp",
               "RelativeToolTip": "farkle\\Player.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-15T17:55:15.37Z",
               "EditorCaption": ""
@@ -53,7 +53,7 @@
               "RelativeDocumentMoniker": "farkle\\Player.h",
               "ToolTip": "C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\Player.h",
               "RelativeToolTip": "farkle\\Player.h",
-              "ViewState": "AgIAAA0AAAAAAAAAAAApwBUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAApwBYAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-07-15T17:41:21.032Z",
               "EditorCaption": ""
@@ -68,8 +68,7 @@
               "RelativeToolTip": "farkle\\Die.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-15T17:26:43.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T17:26:43.443Z"
             },
             {
               "$type": "Document",
@@ -81,8 +80,7 @@
               "RelativeToolTip": "farkle\\Die.h",
               "ViewState": "AgIAAAEAAAAAAAAAAAApwAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-15T17:20:15.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T17:20:15.06Z"
             },
             {
               "$type": "Document",
@@ -94,8 +92,7 @@
               "RelativeToolTip": "farkle\\farkle.cpp",
               "ViewState": "AgIAAAsAAAAAAAAAAAAYwCAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-15T17:17:34.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T17:17:34.514Z"
             }
           ]
         }

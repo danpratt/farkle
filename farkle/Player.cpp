@@ -25,7 +25,9 @@ void Player::beginTurn()
 	turnScore = 0;
 	// reset the held dice
 	heldDice.clear();
-	std::cout << "It's " << name << "'s turn!" << std::endl;
+	// reset the shouldEndTurn flag
+	shouldEndTurn = false;
+	std::cout << std::endl << "It's " << name << "'s turn!" << std::endl;
 	// overwrite rollingDice vector with new dice
 	rollingDice = { Die(), Die(), Die(), Die(), Die(), Die() };
 	displayDice();
@@ -42,6 +44,7 @@ void Player::rollDice()
 	std::cout << std::endl;
 	if (!canScoreDie()) {
 		std::cout << "No scoring dice rolled. Ending turn." << std::endl;
+		shouldEndTurn = true;
 		return; // End the turn if no scoring dice
 	}
 	else {
@@ -226,6 +229,7 @@ void Player::scoreDie()
 	}
 	else {
 		score += turnScore;
+		shouldEndTurn = true; // End the turn after scoring
 		std::cout << "Scored " << turnScore << " points this turn. Total score: " << score << std::endl;
 	}
 }
@@ -245,6 +249,10 @@ void Player::displayDice() const
 
 void Player::promptForAction()
 {
+	if (shouldEndTurn) {
+		return; // End the turn if shouldEndTurn is true
+	}
+
 	std::cout << "Choose an action: (1) Roll Dice (2) Hold Die (3) Score Die and End turn: ";
 
 	int action;
@@ -262,6 +270,7 @@ void Player::promptForAction()
 			if (heldDieAreValid()) {
 				scoreDie();
 				std::cout << "Ending turn." << std::endl;
+				shouldEndTurn = true; // Set flag to end the turn
 				return; // End the turn
 			}
 			else {
