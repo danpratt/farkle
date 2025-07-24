@@ -3,6 +3,8 @@
 #include <iostream>
 #include <string>
 
+std::mt19937 Die::gen(std::random_device{}());
+
 Die::Die()
 {
 	// rolls a value at init
@@ -11,7 +13,8 @@ Die::Die()
 
 // rolls the dice, stores the value of the roll and also returns the roll
 int Die::roll() {
-	value = (rand() % 6) + 1;
+	std::uniform_int_distribution<> distrib(1, 6);
+	value = distrib(gen);
 	return value;
 }
 

@@ -19,6 +19,7 @@ private:
 	std::vector<Die> rollingDice; // vector of the player's rolling dice
 	std::vector<Die> heldDice; // vector of the player's held dice (used for scoring)
 	int score; // player's score
+	int turnScore; // score for the current turn
 
 public:
 	Player(std::string name);

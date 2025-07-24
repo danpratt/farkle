@@ -2,23 +2,20 @@
 
 #pragma once
 #include <string>
+#include <random>
 
-class Die
-{
-private:
-	// holds the roll value
-	int value;
-
+class Die {
 public:
-	// constructor
-	Die();
+    Die();
+    int roll();
+    int getValue() const;
+    std::string displayValue() const;
 
-	// simulates a roll and updates value
-	int roll();
+private:
+    int value;
 
-	// returns the current value of the die
-	int getValue() const;
-
-	std::string displayValue() const;
+    // A modern C++ random number generator
+    // static makes it so all Die objects share one generator
+    static std::mt19937 gen;
 };
 

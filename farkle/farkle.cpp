@@ -6,21 +6,34 @@
 
 int main()
 {
-    // Seed the random number generator once at the start of the program
-    srand(static_cast<unsigned int>(time(0)));
-
-    Player p1 = Player("Daniel");
-	Player p2 = Player("Computer");
-
-	std::cout << "Welcome to Farkle!" << std::endl;
-	std::cout << "Player 1: " << p1.getName() << std::endl;
-	std::cout << "Player 2: " << p2.getName() << std::endl;
-	std::cout << "Starting the game..." << std::endl;
-	
-	// Setup Game Loop
+	// Initialize Players
+	// Prompt user for player names or to press q to stop entering names
+	// There must be at least 2 players to start the game
+	std::vector<Player> players;
+	std::string playerName;
 	while (true) {
-		p1.beginTurn();
-		p2.beginTurn();
+		std::cout << "Enter player name (or 'q' to finish): ";
+		std::getline(std::cin, playerName);
+		if (playerName == "q" || playerName.empty()) {
+			if (players.size() < 2) {
+				std::cout << "At least 2 players are required to start the game." << std::endl;
+			} else {
+				break; // Exit loop if at least 2 players
+			}
+		} else {
+			players.emplace_back(playerName); // Add new player
+		}
 	}
     
+	// Game loop
+	while (true) {
+		for (Player& player : players) {
+			player.beginTurn(); // Each player takes a turn
+			// Check if the player has won
+			if (player.getScore() >= 10000) {
+				std::cout << player.getName() << " wins with a score of " << player.getScore() << "!" << std::endl;
+				return 0; // End the game
+			}
+		}
+	}
 }

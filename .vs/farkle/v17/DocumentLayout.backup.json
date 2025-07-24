@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{C162C8C3-16D4-43A8-A8C5-22FC1E04B547}|farkle\\farkle.vcxproj|solutionrelative:farkle\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C162C8C3-16D4-43A8-A8C5-22FC1E04B547}|farkle\\farkle.vcxproj|C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C162C8C3-16D4-43A8-A8C5-22FC1E04B547}|farkle\\farkle.vcxproj|solutionrelative:farkle\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C162C8C3-16D4-43A8-A8C5-22FC1E04B547}|farkle\\farkle.vcxproj|C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\farkle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C162C8C3-16D4-43A8-A8C5-22FC1E04B547}|farkle\\farkle.vcxproj|solutionrelative:farkle\\farkle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C162C8C3-16D4-43A8-A8C5-22FC1E04B547}|farkle\\farkle.vcxproj|C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\Die.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C162C8C3-16D4-43A8-A8C5-22FC1E04B547}|farkle\\farkle.vcxproj|solutionrelative:farkle\\Die.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C162C8C3-16D4-43A8-A8C5-22FC1E04B547}|farkle\\farkle.vcxproj|C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C162C8C3-16D4-43A8-A8C5-22FC1E04B547}|farkle\\farkle.vcxproj|solutionrelative:farkle\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,59 +40,59 @@
               "RelativeDocumentMoniker": "farkle\\Player.cpp",
               "ToolTip": "C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\Player.cpp",
               "RelativeToolTip": "farkle\\Player.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-15T17:55:15.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Player.h",
               "DocumentMoniker": "C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\Player.h",
               "RelativeDocumentMoniker": "farkle\\Player.h",
               "ToolTip": "C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\Player.h",
               "RelativeToolTip": "farkle\\Player.h",
-              "ViewState": "AgIAAA0AAAAAAAAAAAApwCcAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAApwBUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-07-15T17:41:21.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Die.cpp",
               "DocumentMoniker": "C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\Die.cpp",
               "RelativeDocumentMoniker": "farkle\\Die.cpp",
               "ToolTip": "C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\Die.cpp",
               "RelativeToolTip": "farkle\\Die.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-15T17:26:43.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Die.h",
               "DocumentMoniker": "C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\Die.h",
               "RelativeDocumentMoniker": "farkle\\Die.h",
               "ToolTip": "C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\Die.h",
               "RelativeToolTip": "farkle\\Die.h",
-              "ViewState": "AgIAAAEAAAAAAAAAAAApwBUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAApwAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-07-15T17:20:15.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "farkle.cpp",
               "DocumentMoniker": "C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\farkle.cpp",
               "RelativeDocumentMoniker": "farkle\\farkle.cpp",
               "ToolTip": "C:\\Users\\danpr\\Documents\\GitHub\\farkle\\farkle\\farkle.cpp",
               "RelativeToolTip": "farkle\\farkle.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwCAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-15T17:17:34.514Z",
               "EditorCaption": ""

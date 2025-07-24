@@ -6,6 +6,7 @@ Player::Player(std::string name)
 {
 	this->name = name;
 	score = 0; // Initialize score to 0
+	turnScore = 0; // Initialize turn score to 0
 }
 
 std::string Player::getName() const
@@ -20,6 +21,10 @@ int Player::getScore() const
 
 void Player::beginTurn()
 {
+	// reset the turn score
+	turnScore = 0;
+	// reset the held dice
+	heldDice.clear();
 	std::cout << "It's " << name << "'s turn!" << std::endl;
 	// overwrite rollingDice vector with new dice
 	rollingDice = { Die(), Die(), Die(), Die(), Die(), Die() };
@@ -175,7 +180,6 @@ void Player::scoreDie()
 	}
 
 	// Calculate score based on heldDice
-	int turnScore = 0;
 	for (int i = 0; i < 6; ++i) {
 		while (counts[i] > 0) {
 			// scoring for 1's
@@ -204,15 +208,26 @@ void Player::scoreDie()
 			// scoring for everything else
 			else {
 				if (counts[i] >= 3) {
-					turnScore += (counts[i] + 1) * 100;
+					turnScore += (i + 1) * 100;
 					counts[i] -= 3;
 				}
 			}
 		}
 	}
 
-	score += turnScore;
-	std::cout << "Scored " << turnScore << " points this turn. Total score: " << score << std::endl;
+	if (rollingDice.empty()) {
+		heldDice.clear(); // Clear heldDice because we scored them
+		std::cout << "You scored all your held dice! You can continue rolling." << std::endl;
+
+		// Roll the dice again
+		rollingDice = { Die(), Die(), Die(), Die(), Die(), Die() };
+		displayDice();
+		promptForAction();
+	}
+	else {
+		score += turnScore;
+		std::cout << "Scored " << turnScore << " points this turn. Total score: " << score << std::endl;
+	}
 }
 
 void Player::displayDice() const
@@ -253,6 +268,7 @@ void Player::promptForAction()
 				cleanupScorableDice();
 				displayDice();
 				promptForAction();
+				break;
 			}
 		default:
 			std::cout << "Invalid action. Please try again." << std::endl;
