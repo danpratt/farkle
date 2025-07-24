@@ -33,7 +33,13 @@ public:
 
 	void holdDie(int atIndex);
 
+	bool heldDieAreValid();
+
 	bool canScoreDie() const;
+
+	void cleanupScorableDice();
+
+	int* createHeldDieCounter() const;
 
 	void scoreDie();
 
