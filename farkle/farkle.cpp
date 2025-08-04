@@ -3,9 +3,22 @@
 
 #include <iostream>
 #include "Player.h"
+#include "Rules.h"
 
 int main()
 {
+	// Welcome message
+	std::cout << "Welcome to Farkle!" << std::endl;
+	// Prompt user to display rules
+	std::cout << "Would you like to see the rules? (y/n): ";
+	std::string showRules;
+	std::getline(std::cin, showRules);
+	if (showRules == "y" || showRules == "Y") {
+		Rules rules;
+		rules.displayRulesFile(); // Display the rules
+	}
+	std::cout << std::endl;
+
 	// Initialize Players
 	// Prompt user for player names or to press q to stop entering names
 	// There must be at least 2 players to start the game
